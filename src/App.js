@@ -1,4 +1,6 @@
 import { Component } from "react";
+import PageHeader from "./components/PageHeader";
+import Resume from "./components/Resume";
 
 class App extends Component {
   constructor() {
@@ -8,7 +10,8 @@ class App extends Component {
   render() {
     return (
       <div>
-        
+        <PageHeader />
+        <Resume />
       </div>
     );
   }
